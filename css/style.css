@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #F5F5F5;
+}
+
+
+/*------------ start nav------------ */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+   width: 100%;
+   background-color: black;
+    z-index: 1000;
+   
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 95%;
+  margin-top: -6px;
+  display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+/*------------ end nav------------ */
+
+
+/*------------ start HOME------------ */
+#home{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+#home .content h1{
+    font-size: 4.5rem;
+    
+}
+/*------------ end HOME------------ */
+
+
+/*------------ start about------------ */
+#ABOUT{
+    background-color: #F5F5F5;
+    
+}
+#ABOUT .container{
+    background-color:white;
+    box-shadow: 15px;
+   
+}
+#ABOUT .container .total-about{
+  width: 100%;
+  height: 100vb;
+
+ 
+}
+#ABOUT .container .total-about .about-left .about-percent span{
+color: #0078FF;
+ 
+}
+#ABOUT .container .total-about .about-right h3{
+border: solid 5px #0078FF;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+padding-bottom: 0.75rem;
+ display: inline-block;
+}
+#ABOUT .container .total-about .about-right p{
+line-height: 2.5rem;
+ 
+}
+
+
+/*------------ end about------------ */
+/* -- ------------ start SERVICES------------ */
+#SERVICES .container .all-services .title-services{
+   position: relative;
+   
+}
+#SERVICES .container .all-services .title-services-p::after{
+    content: "";
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    background-color: #0078FF;
+    top: 102%;
+    left: 48%;
+}
+#SERVICES .container .content-services .card i{
+    /* margin: 0 7rem; */
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: 10px solid #0078FF;
+border-radius: 100%;
+transition: all 0.75s;
+}
+#SERVICES .container .content-services .card i:hover{
+    background-color:#0078FF;
+    border-color: skyblue;
+}
+#SERVICES .container .content-services .card{
+   
+  box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.3);
+
+}
+
+/* -- ------------ end SERVICES------------ */
+
+/*------------ start blue1------------ */
+
+.blue-section{
+    background-image: linear-gradient(rgba(13, 110, 253, 0.7), rgba(13, 110, 253, 0.7)), url(../photo/overlay-bg.jpg);
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.blue-section .icon-blue i{
+    margin: 0 7rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+/*------------ end blue1 --------------- */
+/*------------ start work (portfolio)------------ */
+
+#WORK .container  .title-portfolio{
+    position: relative;  
+    
+ }
+ #WORK .container .title-portfolio p::after{
+     content: "";
+     width: 5%;
+     height: 3px;
+     position: absolute;
+     background-color: #0078FF;
+     top: 102%;
+     left: 525px;
+     overflow: hidden;
+
+ }
+
+ #WORK .container .content-portfolio .card img{
+ overflow: hidden;
+ transition: all 0.85s;
+ }
+
+ #WORK .container .content-portfolio .card img:hover{
+     transform: scale(1.13);
+     overflow: hidden;
+
+ }
+ #WORK .container .content-portfolio .card{
+     box-shadow: 50px;
+     overflow: hidden;
+
+ }
+/*------------ end WORK (portfolio)------------ */
+
+/*------------ start blue2------------ */
+.blue-section2{
+    background-image: linear-gradient(rgba(13, 110, 253, 0.7), rgba(13, 110, 253, 0.7)), url(../photo/overlay-bg.jpg);
+    width: 100%;
+    height: 28rem;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    opacity: 0.5;
+    border: none !important;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    opacity: 1 !important;
+}
+/*------------ end blue2------------ */
+
+
+/*------------ start BLOG------------ */
+#Blog {
+    margin-bottom: 5%;
+}
+
+ #Blog .container .card-group .card{
+  box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.3);
+     overflow: hidden;
+
+ }
+#Blog .container .title-Blog .title-Blog-p {
+    position: relative;   
+}
+
+#Blog .container .title-Blog .title-Blog-p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;           
+    left: 50%;            
+    transform: translateX(-50%); 
+    width: 50px;       
+    height: 3px;
+    background-color: #0078FF;
+}
+#Blogphoto img{
+    width: 15%;
+    border-radius: 100%;
+}
+/*------------ end BLOG------------ */
+
+/*------------ start blue3------------ */
+
+.blue-section3{
+    background-image: linear-gradient(rgba(13, 110, 253, 0.7), rgba(13, 110, 253, 0.7)), url(../photo/overlay-bg.jpg);
+    width: 100%;
+    height: 39rem;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.form-box {
+    background: #fff;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-box h4 {
+    font-weight: 700;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background: #0078ff;
+    margin: 8px 0 25px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-send {
+    background: #0078ff;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-send:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.info i {
+    color: #0078ff;
+    margin-right: 10px;
+}
+
+.info p {
+    margin-bottom: 12px;
+    color: #4e4e4e;
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0078ff;
+    border-radius: 50%;
+    color: #0078ff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    background: #0078ff;
+    color: #fff;
+}
+
+/*------------ end blue3------------ */
+
+/*------------ start footer------------  */
+footer{
+    background-color: #0062d3;
+    color: #F5F5F5;
+    width: 100%;
+    height: 5rem;
+    font-size: small;
+   
+}
+
+/*------------ end footer------------  */
